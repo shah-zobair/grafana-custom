@@ -44,5 +44,5 @@ oc create -f grafana-route.yml
 
 * Finally, create the grafana-custom Pod:
 ```
-grafana-deployment.yml
+oc apply -f grafana-deployment.yml
 ```
